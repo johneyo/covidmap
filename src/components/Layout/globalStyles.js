@@ -1,35 +1,6 @@
-
 import { css } from "@emotion/core"
 
-import firaGoRegularWoff from "./fonts/FiraGO-Regular.woff"
-import firaGoRegularWoff2 from "./fonts/FiraGO-Regular.woff2"
-import firaGoSemiboldWoff from "./fonts/FiraGO-Semibold.woff"
-import firaGoSemiboldWoff2 from "./fonts/FiraGO-Semibold.woff2"
-import firaGoBoldWoff from "./fonts/FiraGO-Bold.woff"
-import firaGoBoldWoff2 from "./fonts/FiraGO-Bold.woff2"
-
 const globalStyles = css`
-  @font-face {
-      font-family: "FiraGo";
-      src: url(${firaGoRegularWoff2}) format("woff2"),
-          url(${firaGoRegularWoff}) format("woff");
-      font-weight: 400;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: "FiraGo";
-      src: url(${firaGoSemiboldWoff2}) format("woff2"),
-          url(${firaGoSemiboldWoff}) format("woff");
-      font-weight: 600;
-      font-style: normal;
-  }
-  @font-face {
-      font-family: "FiraGo";
-      src: url(${firaGoBoldWoff2}) format("woff2"),
-          url(${firaGoBoldWoff}) format("woff");
-      font-weight: 700;
-      font-style: normal;
-  }
   html {
     height: 0;
     line-height: 1.6;
@@ -49,7 +20,7 @@ const globalStyles = css`
     text-align: center;
     margin-bottom: 20px;
     pointer-events: none;
-	}
+  }
   .leaflet-popup-content-wrapper {
     padding: 1px;
     text-align: left;
@@ -72,15 +43,15 @@ const globalStyles = css`
     margin: -10px auto 0;
 
     -webkit-transform: rotate(45deg);
-      -moz-transform: rotate(45deg);
-        -ms-transform: rotate(45deg);
-            transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
   }
   .leaflet-popup-content-wrapper,
   .leaflet-popup-tip {
     background: white;
     color: #333;
-    box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.4);
   }
   .leaflet-container a.leaflet-popup-close-button {
     display: none;
@@ -94,7 +65,7 @@ const globalStyles = css`
     width: 18px;
     height: 14px;
     font: 16px/14px Tahoma, Verdana, sans-serif;
-    color: #9B9DA2;
+    color: #9b9da2;
     text-decoration: none;
     font-weight: bold;
     background: transparent;
@@ -104,20 +75,20 @@ const globalStyles = css`
   }
   .leaflet-popup-scrolled {
     overflow: auto;
-    border-bottom: 1px solid #9B9DA2;
-    border-top: 1px solid #9B9DA2;
+    border-bottom: 1px solid #9b9da2;
+    border-top: 1px solid #9b9da2;
   }
   .tt-zip-code-title {
     font-weight: 700;
     font-size: 0.75rem;
-    color: #9B9DA2;
+    color: #9b9da2;
   }
   .tt-zip-code-value {
     font-weight: 700;
     min-width: 12rem;
   }
   .tt-median-rent-title {
-    color: #9B9DA2;
+    color: #9b9da2;
     font-weight: 700;
     font-size: 0.75rem;
     padding: 0.75rem 0.75rem 0 0.75rem;
@@ -133,7 +104,7 @@ const globalStyles = css`
   .tt-address {
     padding: 0.75rem;
     border-bottom: 0.0625rem solid;
-    border-color: #EBEBEC;
+    border-color: #ebebec;
   }
   .tt-percentage-difference {
     padding: 0.125rem 0.25rem;
